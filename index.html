@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AK Shaloon </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+  .mycls{
+    background-color:#1E1E1E ;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+  .child1{
+    color: #A18C62;
+    text-align: center;
+  }
+  
+  .wrapper{
+    max-height: 500px;
+    border: 1px solid#ddd;
+    display:flex;
+    overflow-x: auto;
+    overflow-y: auto;
+    overlay: none;
+  }
+  .wrapper::-webkit-scrollbar{
+    width: 0;
+  }
+  .wrapper .item{
+    min-width: 650px;
+    min-height: 500px;
+    line-height: 500px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 30px;
+    box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+  }
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+ h2{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+  h3{
+    padding-top: 10px;
+    font-size:large;
+  }
+  .child8 img{
+    box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+  }
+  .form-control{
+    background-color: transparent;
+    border-radius: 8px;
+    color:white;
+  }
+  .form-label{
+    background-color: transparent;
+    border-radius: 8px;
+    color:white;
+  }
+ .form-select{
+  background-color: transparent;
+    border-radius: 8px;
+    color:white;
+ }
+ .child12:hover{
+box-shadow: 0 45px 65px rgba(0,0,0,0.50), 0 35px 22px rgba(0,0,0,0.16);
+ }
+ .child13:hover{
+  box-shadow: 0 45px 65px rgba(0,0,0,0.50), 0 35px 22px rgba(0,0,0,0.16);
+ }
+ .two{
+  position: relative;
+ }
+ .one{
+  position: absolute;
+  top:40%;
+  left:60%;
+  color: white;
+  opacity: 0;
+ }
+ .one:hover{
+  opacity: 1;
+ }
+ .three:hover{
+background-color: yellow;
+opacity: 0.7;
+ }
+</style>
+
+</head>
+<body> 
+    <div class="row ">
+        <div class="col-sm-2 mycls"  style="background-size: cover;" > 
+    <!--navbar srt-->
+    <div class="child14" style="margin-top: 10px;">
+      <img src="logo breed.png"width="90px"height="90px" style="display: inline-flex;color:#ddd">
+      <img src="logo house.png"width="80px"height="80px">
+    </div>
+   
+    <nav class="nav flex-column text-center" width="100%" style="margin-top: 80px;">
+     <a class="nav-link active " aria-current="page" href="#"> Home</a>
+      <a class="nav-link" href="#Service">Service</a>
+      <a class="nav-link" href="#Skill">Skill</a>
+      <a class="nav-link" href="#Work"> Work</a>
+      <a class="nav-link" href="#Price">Price</a>
+      <a class="nav-link" href="#Team">Team</a>
+      <a class="nav-link" href="#Contact">Contact</a>
+      <br>
+      <pre style="padding-top: 150px;"><i class="fa-brands fa-facebook" style="color: #8b8113;"></i>   <i class="fa-brands fa-twitter" style="color: #8b8113;"></i>   <i class="fa-brands fa-youtube" style="color: #8b8113;"></i></pre>
+     <h6 style="color: #8b8113;">Reference - Made with<br>Massive Dynamic</h6>
+    </nav>
+        </div>
+      <!--navbar end-->
+      
+       <!--carousel srt-->
+       <div class="col-sm-10" width="100%" style="background-size: cover;" >
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner " >
+          <div class="carousel-item active"  data-bs-interval="5000">
+            <img src="carousel-1.jpg" class="d-block w-100" height="500px" alt="...">
+            <div class="carousel-logo card-img-overlay justify-content-sm-start d-none d-md-block pt-sm-5 m-4 " style="margin-right: 100%;">
+             <center><img src="logo1.png"></center> 
+            </div>
+          </div>
+          <div class="carousel-item"  data-bs-interval="3000">
+            <img src="carousel-2.jpg" class="d-block w-100" height="500px" alt="...">
+           
+          </div>
+          <div class="carousel-item"  data-bs-interval="3000">
+            <img src="carousel-3.jpg" class="d-block w-100" height="500px" alt="...">
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       <!--carousel end-->
+        <!--services srt-->
+      <div><h2 class="child1" style="color: #A18C62;padding-top: 40px;" id="Service"><center>Our Services</center></h2>
+      <center><i class="fa-solid fa-scissors" style="color: #A18C62;" ></i></center>
+      <p><center>Hair salons specialize in hair services such as basic hair cuts, hair styling, highlights, hair coloring, and hair texturing techniques.<br> Most hair salons also offer hair cleansing such as shampoo and conditioning and specialized treatments for damaged hair.</center></p>
+      <div class="row">
+        <div class="col-sm-4 ">
+<center><img src="service-1.jpg" class="child-2 rounded-circle"width="175px" height="175px"></center>
+<h3 class="child1">Hair Color</h3>
+<p>When in doubt, change your hair color. Embracing the beauty of change with my new hair color. My hair color is an expression of my personality. Confidence is the best accessory to rock any hair color.</p>
+<center><button type="button" class="btn btn-outline-primary child-3 mb-4">Read More</button></center>      
+</div>
+        <div class="col-sm-4">
+          <center><img src="service-2.jpg" class="child-2 rounded-circle"width="175px" height="175px"></center>
+<h3 class="child1">Hair Cutting</h3>
+<p>A hairstyle, hairdo,coiffure refers to the styling of hair. The fashioning of hair can be considered an aspect of personal grooming, fashion, and cosmetics, cultural, and popular considerations also influence some hairstyles.</p>
+<center><button type="button" class="btn btn-outline-primary child-3  mb-4">Read More</button></center> 
+        </div>
+        <div class="col-sm-4 ">
+          <center><img src="service-3.jpg" class="child-2 rounded-circle"width="175px" height="175px"></center>
+<h3 class="child1">Hair Care</h3>
+<p>Mind the water temperature: wash and rinse your hair with lukewarm or preferably cold water. Washing which can lead to dryness and breakage. Get a haircut every 6 to 8 weeks to reduce breakage and split ends.</p>
+<center><button type="button" class="btn btn-outline-primary child-3  mb-4">Read More</button></center> 
+        </div>
+      </div>
+    </div>
+      <!--services end-->
+<!--slider srt-->
+<div class="wrapper container-fluid">
+  <div class="item"> <img src="slider1.jpg"width="650px"height="500px"/></div>
+  <div class="item"> <img src="slider2.jpg"width="650px"height="500px"/></div>
+  <div class="item"> <img src="slider3.jpg"width="650px"height="500px"/></div>
+  <div class="item"> <img src="slider4.jpg"width="650px"height="500px"/></div>
+  <div class="item"> <img src="slider1.jpg"width="650px"height="500px"/></div>
+  <div class="item"> <img src="slider2.jpg"width="650px"height="500px"/></div>
+  <div class="item"> <img src="slider3.jpg"width="650px"height="500px"/></div>
+  <div class="item"> <img src="slider4.jpg"width="650px"height="500px"/></div>
+</div>
+<!--slider end-->
+<!--our skills srt-->
+<div><h2 class="child1 " style="color: #A18C62;padding-top: 40px;" id="Skill"><center>Our Skills</center></h2>
+      <center><i class="fa-solid fa-scissors" style="color: #A18C62;" ></i></center>
+      <p><center>Hair salons cut, trim and style shorter hair, typically on male clients but women with shorter hair can also see a barber for styling.<br> Professional barbers are also skilled in the art of facial hair services,shaping and styling custom looks for their clients.</center></p>
+<div class="row container-fluid">
+  <div class="col-sm-4">
+    <div class="row">
+      <div class="col-sm-6 wrapper1 child13">
+        <center><img src="skills-1.jpg" class="child-6 rounded-circle "width="125px" height="125px"></center>
+        <center><h3 class="child1"style="padding-top:55px">Hair Style</h3></center>
+        <center><p class="child7">AK Saloon<br>(At your door step)</p></center>
+      </div>
+      <div class="col-sm-6 wrapper1 child13">
+        <center><img src="skills-2.jpg" class="child-6 rounded-circle"width="150px" height="150px"></center>
+        <center><h3 class="child1"style="padding-top:30px">Highlights</h3></center>
+        <center><p class="child7">AK Saloon<br>brings you amazing features
+          that just haven't been possible before.</p></center>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-sm-4 child13">
+    <center><img src="skills-3.jpg" class="child-6 rounded-circle"width="175px" height="175px"></center>
+    <center><h3 class="child1">Colour Gloss</h3></center>
+    <center><p class="child7">AK Saloon<br>brings you amazing features
+  that just haven't been possible before.</p></center>
+  </div>
+  <div class="col-sm-4">
+    <div class="row">
+      <div class="col-sm-6 wrapper1 child13">
+        <center><img src="skills-4.jpg" class="child-6 rounded-circle"width="150px" height="150px"></center>
+        <center><h3 class="child1"style="padding-top:30px">Men's Cut</h3></center>
+        <center><p class="child7">AK Saloon<br>brings you amazing features
+          that just haven't been possible before.</p></center>
+      </div>
+      <div class="col-sm-6 wrapper1 child13">
+        <center><img src="skills-5.jpg" class="child-6 rounded-circle"width="125px" height="125px"></center>
+        <center><h3 class="child1"style="padding-top:55px">Blowdry</h3></center>
+        <center><p class="child7">AK Saloon<br>(At your door step)</p></center>
+      </div>
+    </div>
+  </div>
+</div></div>
+      <!--our skills end -->
+      <!--our skillsdown srt-->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          
+        </div>
+        <div class="carousel-inner" style="margin-top: 30px;">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="skillsdown.jpg" class="d-block w-100" style="filter: blur(8px);" height="500px"alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <center><img src="service-2.jpg" class="child-6 rounded-circle "style="margin-top: 125px;"width="125px" height="125px"></center>
+              <h5 style="font-size: large;text-align: center;color: #ddd;">Ajeeth Kumar</h5>
+              <p style="font-size: medium;color: gray;">(Web designer)</p>
+              <p style="font-size: medium;text-align: center;margin-bottom: 125px;color: #ddd;"> A web designer creates the layout and design of a website. <br>In simple terms, a website designer makes a site look good.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="skillsdown.jpg" class="d-block w-100" style="filter: blur(8px);" height="500px"alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <center><img src="service-3.jpg" class="child-6 rounded-circle "style="margin-top: 125px;"width="125px" height="125px"></center>
+              <h5 style="font-size: large;text-align: center;color: #ddd;">Karthikeya</h5>
+              <p style="font-size: medium;color: gray;">(Graphic designer)</p>
+              <p style="font-size: medium;text-align: center;margin-bottom: 125px;color: #ddd;">Graphic designer using various technologies,<br> a graphic designer creates useful, meaningful, and functional visuals</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExamplelight" data-bs-slide="prev">
+          
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExamplelight" data-bs-slide="next">
+          
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       <!--our skillsdown end -->
+       <!--our work srt-->
+       <div class="child8 container-fluid "id="Work">
+       <h2 class="child1 " style="color: #A18C62;padding-top: 40px;"><center>Our Works</center></h2>
+      <center><i class="fa-solid fa-scissors" style="color: #A18C62;" ></i></center>
+      <p><center>Hair salons cut, trim and style shorter hair, typically on male clients but women with shorter hair can also see a barber for styling.<br> Professional barbers are also skilled in the art of facial hair services,shaping and styling custom looks for their clients.</center></p>
+       <div class="row">
+        
+        <div class="col-sm-3 two" style="padding-left: 170px;">
+        <img src="slider4.jpg " class="three" height="280px" width="225px">
+        <h5 class="one">AK Saloon<br>(At your door step)</h5>
+        </div>
+        <div class="col-sm-3 two"style="padding-left: 90px;">
+          <img src="service-2.jpg" class="three" height="280px" width="225px">
+          <h5 class="one">AK Saloon<br>(At your door step)</h5>
+        </div>
+        <div class="col-sm-6 two">
+          <img src="skills-4.jpg"  class="three"height="280px" width="400px">
+          <h5 class="one">AK Saloon<br>brings you amazing features
+            that just haven't been possible before. </h5>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-sm-6 two"style="padding-left:168px;padding-top:20px;">
+          <img src="carousel-2.jpg"  class="three"height="280px" width="450px">
+          <h5 class="one">AK Saloon<br>brings you amazing features
+            that just haven't been possible before </h5>
+        </div>
+        <div class="col-sm-6 two"style="padding-top:20px;padding-left:10px;">
+          <img src="skillsdown.jpg"  class="three"height="280px" width="400px">
+          <h5 class="one">AK Saloon<br>brings you amazing features
+            that just haven't been possible before</h5>
+        </div>
+         </div>
+       <center><button type="button" class="btn btn-outline-primary mt-5">See More</button></center>
+       </div>
+       <!--our work end-->
+       <!--pricing list srt-->
+       <div class="child9 container-fluid">
+        <h2 class="child1 " style="color: #A18C62;padding-top: 80px;" id="Price"><center>Price list</center></h2>
+       <center><i class="fa-solid fa-scissors" style="color: #A18C62;" ></i></center>
+       <p><center>Hair salons cut, trim and style shorter hair, typically on male clients but women with shorter hair can also see a barber for styling.<br> Professional barbers are also skilled in the art of facial hair services,shaping and styling custom looks for their clients.</center></p>
+        
+       <div class="row">
+        <div class="col-sm-2  ">
+          <div class="card text-center child12 " style="width: 18rem;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  margin-left:200px">
+            <div class="card-body">
+              <h5 class="card-title" ><sup>¹</sup>1,499/-</h5>
+              <h4>WEEKLY</h4>
+             <i> <p class="card-text">AK Saloon <br> Home Shaloon at your door step<br>Three times a week.<br><br>Hair Style<br> Highlights <br>Colour Gloss <br>Men's Cut <br>Blowdry.<br><br></p></i>
+              <a href="#" class="btn btn-primary">PURCHASE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="card text-center child12" style="width: 18rem;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;margin-left:300px">
+            <div class="card-body">
+              <h5 class="card-title"><sup>¹</sup>5,499/-</h5>
+              <h4>MONTHLY</h4>
+             <i> <p class="card-text">AK Saloon <br> Home Shaloon at your door step<br>Three times a week.<br><br>Hair Style<br> Highlights <br>Colour Gloss <br>Men's Cut <br>Blowdry.<br><br></p></i>
+              <a href="#" class="btn btn-primary">PURCHASE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-8 ">
+          <div class="card text-center child12" style="width: 18rem;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-left:400px">
+            <div class="card-body">
+              <h5 class="card-title"><sup>¹</sup>62,499/-</h5>
+              <h4>YEARLY</h4>
+             <i> <p class="card-text">AK Saloon <br> Home Shaloon at your door step<br>Three times a week.<br><br>Hair Style<br> Highlights <br>Colour Gloss <br>Men's Cut <br>Blowdry.<br><br></p></i>
+              <a href="#" class="btn btn-primary">PURCHASE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+       </div>
+       <!--pricing list end-->
+       <!--pricing listdown srt-->
+       <div class="card text-bg-dark" style="margin-top: 20px;">
+        <img src="pricelist down.jpg"style="filter: blur(5px);" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <div class="row">
+            <div class="col-sm-3" style="color:black;display: inline-flex;text-align: center;padding-top:100px;">
+            <i class="fa-regular fa-heart fa-3x"></i>
+            <sup style="color:#A18C62";>5,874</sup><br>
+            <br><br><h4 style="padding-top:20px;color:#ddd;font-family:'Times New Roman', Times, serif">Happy Clients</h4>
+            </div>
+            <div class="col-sm-3" style="color: #A18C62;display: inline-flex;text-align: center;padding-top:100px;">
+              <img src="mainlogo2.png" width="50px" height="50px">
+              <sup>2,489</sup><br>
+              <br><br><h4 style="padding-top:20px;color:#ddd;font-family:'Times New Roman', Times, serif">Hair Service</h4>
+              </div>
+              <div class="col-sm-3" style="color: #A18C62;display: inline-flex;text-align: center;padding-top:100px;">
+                <img src="mainlogo3.png" width="50px" height="50px">
+                <sup>3,142</sup><br>
+                <br><br><h4 style="padding-top:20px;color:#ddd;font-family:'Times New Roman', Times, serif">Nail Design</h4>
+                </div>
+                <div class="col-sm-3" style="color: #A18C62;display: inline-flex;text-align: center;padding-top:100px;">
+                  <img src="mainlogo4.png" width="50px" height="50px">
+                  <sup>1,789</sup><br>
+                  <br><br><h4 style="padding-top:20px;color:#ddd;font-family:'Times New Roman', Times, serif">Hair Color</h4>
+                  </div>
+          </div>
+        </div>
+      </div>
+       <!--pricing listdown end-->
+       <!--team srt-->
+       <div class="child10 container-fluid">
+        <h2 class="child1 " style="color: #A18C62;padding-top: 80px;" id="Team"><center>Our Team</center></h2>
+       <center><i class="fa-solid fa-scissors" style="color: #A18C62;" ></i></center>
+       <p><center>Hair salons cut, trim and style shorter hair, typically on male clients but women with shorter hair can also see a barber for styling.<br> Professional barbers are also skilled in the art of facial hair services,shaping and styling custom looks for their clients.</center></p>
+        
+         <center> <div class="row">
+            <div class="col-sm-2" style="padding-bottom: 30px;">
+              <div style="margin-left: 150px;"><img src="team1.jpg"height="350px"width="250px"></div>
+            </div>
+            <div class="col-sm-2">
+              <div style="margin-left: 220px;"><img src="team2.jpg"height="350px"width="250px"></div>
+            </div>
+            <div class="col-sm-8" >
+              <div style="margin-right: 30px;"><img src="team3.jpg"height="350px"width="250px" ></div>
+            </div>
+          </div></center>
+       </div>
+       <!--team end-->
+       <!--contact srt-->
+       <div class="card text-bg-dark" id="Contact">
+        <img src="contact us.jpg"class="card-img" style="filter:blur(5px);" id="#Contact"alt="...">
+        <div class="card-img-overlay">
+       <div class="child10 container-fluid">
+        <h2 class="child1 " style="color: #A18C62;padding-top: 80px;"><center>Contact Us</center></h2>
+       <center><i class="fa-solid fa-scissors" style="color: #A18C62;" ></i></center>
+       <p><center>Hair salons cut, trim and style shorter hair, typically on male clients but women with shorter hair can also see a barber for styling.<br> Professional barbers are also skilled in the art of facial hair services,shaping and styling custom looks for their clients.</center></p>
+       <form class="row g-3">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label"style="color:#A18C62;">Name</label>
+          <input type="text"class="form-control" id="validationDefault01" value=" " required placeholder="Name">
+        </div>
+        
+        <div class="col-md-4">
+          <label for="validationDefaultUsername" class="form-label"style="color:#A18C62;">Email-id</label>
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault04" class="form-label"style="color:#A18C62;">Hair Style</label>
+          <select class="form-select" id="validationDefault04" required placeholder="Choose...">
+            <option selected disabled value=""> </option>
+            <option>Hair Color</option>
+            <option>Hair Cutting</option>
+            <option>Hair Care</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label"style="color:#A18C62;">City</label>
+          <input type="text" class="form-control" id="validationDefault03" required>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label"style="color:#A18C62;">State</label>
+          <select class="form-select" id="validationDefault04" required placeholder="Choose...">
+            <option selected disabled value=""> </option>
+            <option>Andhra Pradesh</option>
+            <option>Telengana</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault05" class="form-label"style="color:#A18C62;">Pincode</label>
+          <input type="text" class="form-control" id="validationDefault05" required>
+        </div>
+        <div class="col-12">
+          <label for="exampleFormControlTextarea1" class="form-label"style="color:#A18C62;">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Address"></textarea>
+        </div>
+        <div class="col-12">
+          <center><button class="btn ;"style="background-color:#A18C62; Color:black; border-radius:8px;text-align:center;" type="send">Send</button></center>
+        </div>
+      </form> 
+       </div>
+       <!--contact end-->
+
+       </div>
+       
+
+</div>
+</body>
+</html>
